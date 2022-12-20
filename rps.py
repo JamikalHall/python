@@ -17,6 +17,7 @@ def convertUserChoice():
         return userChoice  
     else:
         print("Please choose a valid option.")
+        exit()
 
 def determineWinner():
     cpuResult = random.randint(1,3)
